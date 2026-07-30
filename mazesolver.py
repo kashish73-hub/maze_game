@@ -5,7 +5,6 @@ import random
 # Maze size
 ROWS, COLS = 10, 10
 CELL_SIZE = 50
-
 root = tk.Tk()
 root.title("Maze Solver Game🧩- Backtracking Algorithm")
 root.resizable(False, False)
@@ -13,7 +12,6 @@ root.configure(bg="#222")
 
 canvas = tk.Canvas(root, width=COLS * CELL_SIZE, height=ROWS * CELL_SIZE, bg="white", highlightthickness=0)
 canvas.pack(pady=10)
-
 #Colors
 WALL_COLOR = "black"
 PATH_COLOR = "white"
@@ -21,7 +19,6 @@ START_COLOR = "red"
 END_COLOR = "green"
 SOLUTION_COLOR = "#1E90FF"
 VISITED_COLOR = "#87CEFA"
-
 # Global variables
 maze = []
 visited = []

@@ -20,7 +20,7 @@ END_COLOR = "green"
 SOLUTION_COLOR = "#1E90FF"
 VISITED_COLOR = "#87CEFA"
 # Global variables
-maze = []
+maze= []
 visited = []
 path = []
 start = (0, 0)
